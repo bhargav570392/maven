@@ -20,14 +20,7 @@
     <module>server</module>
     <module>webapp</module>
   </modules>
-         <distributionManagement>
-   <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://192.168.86.114:8081/repository/snapshots/snapshots</url>
-   </snapshotRepository>
-</distributionManagement>
-
-  <build>
+        <build>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
